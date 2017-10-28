@@ -19,6 +19,7 @@ pids
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 **/build/Release
 **/__pycache__
+**/*.pyc
 
 # Dependency directory
 # Commenting this out is preferred by some people, see
