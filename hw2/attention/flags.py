@@ -16,4 +16,11 @@ parser.add_argument(
         default='output/out')
 
 
+parser.add_argument(
+        'outputFilePeer',
+        metavar='<outputFilePeer>', type=str, nargs='?',
+        help='Place the output into <outputFile>',
+        default='output/outpeer')
+
+
 FLAGS = parser.parse_args()
